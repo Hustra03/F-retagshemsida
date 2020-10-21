@@ -24,6 +24,40 @@ a:hover {
   color: #0044ff;
 }
 
+.nav {
+  display: grid;
+  grid-template-columns: 20vw 30vw 30vw 20vw;
+}
+
+.pizzabild {
+  display: flex;
+  justify-content: center;
+  margin: 1vw;
+}
+
+.matexempel {
+  display: grid;
+  grid-template-columns: 20vw 0.2vw 20vw 0.2vw 20vw 0.2vw 20vw;
+  grid-template-rows: auto 0.1vw auto;
+  margin: 2vw;
+}
+
+.matexempeldiv {
+  display: grid;
+  grid-template-rows: 2.5vw auto;
+  grid-template-columns: 10vw 1fr 1fr 2;
+  background-color: #97b4b1;
+}
+.matexempelp {
+  grid-column-start: 2;
+  background-color: #97b4b1;
+}
+
+.matexempel a {
+  text-decoration: underline;
+  color: #000000;
+}
+
 footer {
   padding: 0.2vw;
   margin-top: 0;
