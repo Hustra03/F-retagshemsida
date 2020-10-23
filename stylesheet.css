@@ -28,18 +28,22 @@ a:hover {
   display: grid;
   grid-template-columns: 20vw 30vw 30vw 20vw;
 }
+.face
+{
+width: 10vw;
+height: auto;
+}
 
 .pizzabild {
   display: flex;
   justify-content: center;
-  margin: 1vw;
+  margin: 0.5vw;
 }
 
 .matexempel {
   display: grid;
-  grid-template-columns: 20vw 0.2vw 20vw 0.2vw 20vw 0.2vw 20vw;
-  grid-template-rows: auto 0.1vw auto;
-  margin: 2vw;
+  grid-template-columns: 24.25vw 24.25vw 24.25vw 24.25vw;
+  margin: 1.5vw;
 }
 
 .matexempeldiv {
@@ -47,10 +51,12 @@ a:hover {
   grid-template-rows: 2.5vw auto;
   grid-template-columns: 10vw 1fr 1fr 2;
   background-color: #97b4b1;
+  margin: 0.3vw;
 }
 .matexempelp {
   grid-column-start: 2;
   background-color: #97b4b1;
+  text-align:center;
 }
 
 .matexempel a {
