@@ -26,24 +26,28 @@ a:hover {
 
 .nav {
   display: grid;
-  grid-template-columns: 20vw 30vw 30vw 20vw;
+  grid-template-columns: 20vw 30vw 30vw 10vw;
 }
+
+
 .face
 {
-width: 10vw;
+width: 5vw;
 height: auto;
+margin:0.2vw;
 }
 
 .pizzabild {
   display: flex;
   justify-content: center;
   margin: 0.5vw;
+  
 }
 
 .matexempel {
   display: grid;
-  grid-template-columns: 24.25vw 24.25vw 24.25vw 24.25vw;
-  margin: 1.5vw;
+  grid-template-columns:  24.25vw 24.25vw 24.25vw 24.25vw;
+  margin:auto;
 }
 
 .matexempeldiv {
@@ -64,16 +68,26 @@ height: auto;
   color: #000000;
 }
 
+.meny{ display: grid; grid-template-columns: 50vw 50vw;}
+
+.menysektion{
+  display: grid; grid-template-columns: 45vw; margin-right: 1vw;margin-left: 0.3vw;}
+
+.menyitem
+{ padding-left: 0.2vw;
+  background-color: #97b4b1;}
+
 footer {
   padding: 0.2vw;
   margin-top: 0;
   color: #f1ecee;
   background-color: #ec9c66;
+  margin-top: 1vw;
 }
 
 .footergrid {
   display: grid;
-  grid-template-columns: 5vw 50vw 15vw auto;
+  grid-template-columns: auto 50vw 15vw auto;
 }
 .footer1 {
   grid-column-start: 2;
