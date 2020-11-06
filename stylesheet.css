@@ -12,6 +12,7 @@ header {
     "Lucida Sans", Arial, sans-serif;
   font-size: 1.75vw;
   padding: 0.5vw;
+  
 }
 
 a {
@@ -27,6 +28,8 @@ a:hover {
 .nav {
   display: grid;
   grid-template-columns: 20vw 30vw 30vw 10vw;
+  justify-content: center;
+  
 }
 
 .face {
@@ -35,15 +38,20 @@ a:hover {
   margin: 0.2vw;
 }
 
-.pizzabild {
+.img
+{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;}
+
+.pizzabild {  
+  width: 50vw;
+  height: auto;
   margin: 0.5vw;
 }
 
 .matexempel {
   display: grid;
-  grid-template-columns: 24.25vw 24.25vw 24.25vw 24.25vw;
+  grid-template-columns: 24.7vw 24.7vw 24.7vw 24.7vw;
   margin: auto;
 }
 
