@@ -7,12 +7,11 @@ body {
 
 header {
   color: #f1ecee;
-  background-color: #ec9c66;
+  background-color: #ff983a;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 1.75vw;
   padding: 0.5vw;
-  
 }
 
 a {
@@ -29,7 +28,6 @@ a:hover {
   display: grid;
   grid-template-columns: 20vw 30vw 30vw 10vw;
   justify-content: center;
-  
 }
 
 .face {
@@ -38,12 +36,12 @@ a:hover {
   margin: 0.2vw;
 }
 
-.img
-{
+.img {
   display: flex;
-  justify-content: space-around;}
+  justify-content: space-around;
+}
 
-.pizzabild {  
+.pizzabild {
   width: 50vw;
   height: auto;
   margin: 0.5vw;
@@ -57,15 +55,14 @@ a:hover {
 
 .matexempeldiv {
   display: grid;
-  grid-template-rows: 2.5vw auto;
-  grid-template-columns: 10vw 1fr 1fr 2;
-  background-color: #97b4b1;
+  grid-template-columns: 1fr 5fr 1fr;
+  background-color: #5fa286;
   margin: 0.3vw;
+  justify-content: center;
 }
 .matexempelp {
   grid-column-start: 2;
-  background-color: #97b4b1;
-  text-align: center;
+  background-color: #5fa286;
 }
 
 .matexempel a {
@@ -84,7 +81,7 @@ a:hover {
   margin-right: auto;
   margin-left: 1.5vw;
   margin-top: 0.5vw;
-  background-color: #97b4b1;
+  background-color: #5fa286;
 }
 
 .menyitem {
@@ -105,7 +102,7 @@ footer {
   padding: 0.2vw;
   margin-top: 0;
   color: #f1ecee;
-  background-color: #ec9c66;
+  background-color: #ff983a;
   margin-top: 1vw;
 }
 
