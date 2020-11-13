@@ -56,13 +56,13 @@ a:hover {
 .matexempeldiv {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  background-color: #5fa286;
+  background-color: #ffa400;
   margin: 0.3vw;
   justify-content: center;
 }
 .matexempelp {
   grid-column-start: 2;
-  background-color: #5fa286;
+  background-color: #ffa400;
 }
 
 .matexempel a {
@@ -76,8 +76,9 @@ a:hover {
 }
 
 .meny {
-  display: grid;
-  grid-template-columns: 50vw 50vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .menysektion {
@@ -86,7 +87,7 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   margin-top: 1vw;
-  background-color: #5fa286;
+  background-color: #ffa400;
 }
 
 .menyitem {
@@ -109,7 +110,7 @@ a:hover {
 
 .omosstext {
   padding: 1vw;
-  background-color: #5fa286;
+  background-color: #ffa400;
 }
 
 footer {
