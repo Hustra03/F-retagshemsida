@@ -114,11 +114,11 @@ a:hover {
 }
 
 footer {
-  padding: 0.2vw;
-  margin-top: 0;
+  padding: 0.3vw;
   color: #f1ecee;
   background-color: #ff983a;
   margin-top: 1vw;
+  padding-bottom: 1vw;
 }
 
 .footergrid {
