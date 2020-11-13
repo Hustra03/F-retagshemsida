@@ -17,6 +17,8 @@ header {
 a {
   text-decoration: underline;
   color: #f1ecee;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 h2 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
