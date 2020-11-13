@@ -105,13 +105,19 @@ a:hover {
   margin-bottom: 0vw;
 }
 
+.menybild {
+  width: 20vw;
+  height: auto;
+  margin-top: 4vw;
+  margin-bottom: 2vw;
+  margin-left: 100%;
+  display: flex;
+  justify-self: space-around;
+}
 .omoss {
   margin: 0.5vw;
-}
-
-.omosstext {
-  padding: 1vw;
   background-color: #ffa400;
+  padding: 1vw;
 }
 
 footer {
