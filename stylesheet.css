@@ -41,7 +41,7 @@ a:hover {
   justify-content: space-around;
 }
 
-.pizzabild {
+.bild {
   width: 80vw;
   height: auto;
   margin: 1vw;
@@ -93,13 +93,23 @@ a:hover {
   display: grid;
   grid-template-columns: 5vw 1fr;
   grid-template-rows: auto;
-  margin-bottom: 1vw;
+  margin: 1vw;
+  margin-left: 0vw;
 }
 
 .menytext {
   grid-column-start: 2;
   margin-top: 0.5vw;
   margin-bottom: 0vw;
+}
+
+.omoss {
+  margin: 0.5vw;
+}
+
+.omosstext {
+  padding: 1vw;
+  background-color: #5fa286;
 }
 
 footer {
