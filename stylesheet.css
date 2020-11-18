@@ -2,21 +2,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Palatino";
-  font-size: 1.4vw;
+  font-size: 1.75vw;
 }
 
 header {
-  color: #f1ecee;
+  
   background-color: #ff983a;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 1.75vw;
+  font-size: 2.5vw;
   padding: 0.5vw;
 }
 
 a {
   text-decoration: underline;
-  color: #f1ecee;
+  
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -137,7 +137,6 @@ a:hover {
 
 footer {
   padding: 0.3vw;
-  color: #f1ecee;
   background-color: #ff983a;
   margin-top: 1vw;
   padding-bottom: 1vw;
