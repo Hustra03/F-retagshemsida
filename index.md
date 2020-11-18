@@ -10,26 +10,15 @@
     <title>Huvudsida på Pizzeria Kungsbera</title>
     <link rel="stylesheet" href="stylesheet.css" />
   </head>
-  
-  
   <body>
-  
-    <header>
-      
+    <header>  
       <h2>Kungsberga Pizzeria</h2>
-      
       <nav class="nav">
-        
         <div><a href="Index.html">Hem</a></div>
-        
         <div><a href="Meny.html">Meny</a></div>
-        
         <div><a href="OmOss.html">Om Oss</a></div>
-        
         <a href="https://sv-se.facebook.com/pizzeriatraff/"><img class="face" src="facebook-logo.png" alt="" /></a>
-      
       </nav>
-      
     </header>
 
     <div class="img">
