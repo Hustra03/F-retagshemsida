@@ -2,22 +2,36 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Palatino";
-  font-size: 1.2vw;
+  font-size: 1.4vw;
 }
 
 header {
   color: #f1ecee;
-  background-color: #ec9c66;
+  background-color: #ff983a;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 1.75vw;
   padding: 0.5vw;
-  
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #f1ecee;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 a:hover {
@@ -27,9 +41,8 @@ a:hover {
 
 .nav {
   display: grid;
-  grid-template-columns: 20vw 30vw 30vw 10vw;
+  grid-template-columns: 20vw 20vw 20vw 10vw;
   justify-content: center;
-  
 }
 
 .face {
@@ -38,15 +51,15 @@ a:hover {
   margin: 0.2vw;
 }
 
-.img
-{
+.img {
   display: flex;
-  justify-content: space-around;}
+  justify-content: space-around;
+}
 
-.pizzabild {  
-  width: 50vw;
+.bild {
+  width: 80vw;
   height: auto;
-  margin: 0.5vw;
+  margin: 1vw;
 }
 
 .matexempel {
@@ -57,15 +70,15 @@ a:hover {
 
 .matexempeldiv {
   display: grid;
-  grid-template-rows: 2.5vw auto;
-  grid-template-columns: 10vw 1fr 1fr 2;
-  background-color: #97b4b1;
+  grid-template-columns: 1fr 5fr 1fr;
+  background-color: #ffa400;
   margin: 0.3vw;
+  justify-content: center;
+  padding-top: 0.5vw;
 }
 .matexempelp {
   grid-column-start: 2;
-  background-color: #97b4b1;
-  text-align: center;
+  background-color: #ffa400;
 }
 
 .matexempel a {
@@ -73,26 +86,32 @@ a:hover {
   color: #000000;
 }
 
+.matexempel a:hover {
+  text-decoration: underline;
+  color: #0044ff;
+}
+
 .meny {
-  display: grid;
-  grid-template-columns: 50vw 50vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .menysektion {
   display: grid;
   grid-template-columns: 45vw;
   margin-right: auto;
-  margin-left: 1.5vw;
-  margin-top: 0.5vw;
-  background-color: #97b4b1;
+  margin-left: auto;
+  margin-top: 1vw;
+  background-color: #ffa400;
 }
 
 .menyitem {
-  padding-left: 0.2vw;
   display: grid;
   grid-template-columns: 5vw 1fr;
   grid-template-rows: auto;
-  margin-bottom: 1vw;
+  margin: 1vw;
+  margin-left: 0vw;
 }
 
 .menytext {
@@ -101,12 +120,27 @@ a:hover {
   margin-bottom: 0vw;
 }
 
+.menybild {
+  width: 20vw;
+  height: auto;
+  margin-top: 4vw;
+  margin-bottom: 2vw;
+  margin-left: 100%;
+  display: flex;
+  justify-self: space-around;
+}
+.omoss {
+  margin: 0.5vw;
+  background-color: #ffa400;
+  padding: 1vw;
+}
+
 footer {
-  padding: 0.2vw;
-  margin-top: 0;
+  padding: 0.3vw;
   color: #f1ecee;
-  background-color: #ec9c66;
+  background-color: #ff983a;
   margin-top: 1vw;
+  padding-bottom: 1vw;
 }
 
 .footergrid {

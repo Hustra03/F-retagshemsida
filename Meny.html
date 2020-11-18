@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Meny på Pizzeria Kungsberga</title>
     <link rel="stylesheet" href="stylesheet.css" />
   </head>
   <body>
@@ -12,8 +12,8 @@
 
       <nav class="nav">
         <div><a href="Index.html">Hem</a></div>
-        <div><a href="">Meny</a></div>
-        <div><a href="">Om Oss</a></div>
+        <div><a href="Meny.html">Meny</a></div>
+        <div><a href="OmOss.html">Om Oss</a></div>
         <a href=""><img class="face" src="facebook-logo.png" alt="" /></a>
       </nav>
     </header>
@@ -21,7 +21,7 @@
     <div class="meny">
       <div class="menysektion">
         <div class="menyitem">
-          <div class="menytext"><h3>Vegan Pizzor 115 :-</h3></div>
+          <div class="menytext"><h3>Veganska Pizzor 115 :-</h3></div>
           <h4 class="menytext">1. ADRIANA</h4>
           <p class="menytext">
             Champinjoner, paprika, tomater, kalamata oliver, ruccola
@@ -64,7 +64,7 @@
           <p class="menytext">Gyros, kyckling, kebab, lök, feferoni, mixsås</p>
         </div>
         <div class="menyitem">
-          <h4 class="menytext">4. MÄSTARENS</h4>
+          <h4 class="menytext" id="Mästarens">4. MÄSTARENS</h4>
           <p class="menytext">Köttfärs, gorgonzola, räkor, skinka,</p>
         </div>
         <div class="menyitem">
@@ -81,6 +81,7 @@
             Ink. sallad, bröd, läsk, kaffe. Serveras Vardagar : Kl. 10:00 –
             14:00
           </h4>
+          <img src="DagensLunch.jpg" alt="" class="menybild" />
           <h4 class="menytext">Lunch 90 :-</h4>
           <ul class="menytext">
             <li class="menytextlist"><p>Grillrätter</p></li>
@@ -92,6 +93,7 @@
               <p>Svensk Biff, Serveras med bearnaise.</p>
             </li>
           </ul>
+
           <h4 class="menytext">Lunch : 79 :-</h4>
           <ul class="menytext">
             <li class="menytextlist"><p>Lasagne</p></li>
@@ -145,8 +147,13 @@
 
       <div class="menysektion">
         <div class="menyitem">
+          <img src="Pastarätter.jpg" alt="" class="menybild" />
+
           <div class="menytext"><h3>Pastarätter</h3></div>
-          <h4 class="menytext">1. PASTA DELA CASA : 100 :-</h4>
+          <h4 class="menytext" id="PastaDelaCasa">
+            1. PASTA DELA CASA : 100 :-
+          </h4>
+
           <p class="menytext">
             Oxfilé, champinjoner, paprika, purjolök, gräddsås, tomatsås
           </p>
@@ -170,8 +177,8 @@
         <div class="menyitem">
           <h4 class="menytext">5. CON FORMAGGIO : 95 :-</h4>
           <p class="menytext">
-            Champinjoner, purjolök, paprika, kronärstkocka, fetaost,
-            oliver,gräddsås, tomatsås
+            Champinjoner, purjolök, paprika, kronärstkocka, fetaost, oliver,
+            gräddsås, tomatsås
           </p>
         </div>
         <div class="menyitem">
@@ -197,6 +204,8 @@
 
       <div class="menysektion">
         <div class="menyitem">
+          <img src="AmerikanskaPizzor.jpg" alt="" class="menybild" />
+
           <div class="menytext"><h3>Amerikanska Pizzor</h3></div>
           <h4 class="menytext">Small : 110 :- │ Medium : 160 :-</h4>
           <h4 class="menytext">1. Honolulu</h4>
@@ -209,9 +218,9 @@
         <div class="menyitem">
           <h4 class="menytext">3. Texas</h4>
           <p class="menytext">
-            Skinka, räkor, champinjoner, bacon, lök, färska tomater, Small : 120
-            :- │ Medium : 170 :-
+            Skinka, räkor, champinjoner, bacon, lök, färska tomater
           </p>
+          <p class="menytext">Small : 120 :- │ Medium : 170 :-</p>
         </div>
         <div class="menyitem">
           <h4 class="menytext">5. New York</h4>
@@ -243,7 +252,7 @@
         <div class="menyitem">
           <div class="menytext"><h3>Inbakade & Halv inbakade Pizzor</h3></div>
 
-          <h4 class="menytext">1. Calzone : 85 :-</h4>
+          <h4 id="Calzone" class="menytext">1. Calzone : 85 :-</h4>
           <p class="menytext">Ost, skinka</p>
         </div>
         <div class="menyitem">
@@ -293,6 +302,7 @@
       <div class="menysektion">
         <div class="menyitem">
           <div class="menytext"><h3>Grillrätter</h3></div>
+          <img src="Grillrätter.jpg" alt="" class="menybild" />
 
           <h4 class="menytext">Meny 1 : 80 :-</h4>
           <p class="menytext">
@@ -316,7 +326,7 @@
           <p class="menytext">Lövsteksrulle med dressing & läsk</p>
         </div>
         <div class="menyitem">
-          <h4 class="menytext">Meny 5</h4>
+          <h4 class="menytext" id="Hamburgare">Meny 5</h4>
 
           <p class="menytext">Hamburgare med bröd, strips & läsk</p>
           <p class="menytext">90 gr. 70 :- / 150 gr. 80:- /200 gr. 90 :-</p>
@@ -372,7 +382,7 @@
         </div>
 
         <div class="menyitem">
-          <h4 class="menytext">Meny 16 : 90 :-</h4>
+          <h4 class="menytext" id="KebakTallrikStrips">Meny 16 : 90 :-</h4>
           <p class="menytext">Kebabtallrik med strips & läsk</p>
         </div>
 
@@ -395,6 +405,8 @@
       <div class="menysektion">
         <div class="menyitem">
           <h3 class="menytext">Sallader</h3>
+          <img src="Sallader.jpg" alt="" class="menybild" />
+
           <h4 class="menytext">Sallader 90 :-</h4>
           <ul class="menytext">
             <li class="menytextlist">
@@ -402,7 +414,7 @@
               <p>Kebabkött, röd lök, pepperoni</p>
             </li>
             <li class="menytextlist">
-              <h4>2. Räksallad</h4>
+              <h4 id="Räksallad">2. Räksallad</h4>
               <p>Räkor, ägg, majs, paprika, citron</p>
             </li>
             <li class="menytextlist">
@@ -466,6 +478,8 @@
       <div class="menysektion">
         <div class="menyitem">
           <div class="menytext"><h3>Pris 1 : 85 :-</h3></div>
+          <img src="PizzaPris1.jpg" alt="" class="menybild" />
+
           <h4 class="menytext">1. Margherita</h4>
           <p class="menytext">Tomat, ost</p>
         </div>
@@ -482,7 +496,7 @@
           <p class="menytext">Skinka, räkor</p>
         </div>
         <div class="menyitem">
-          <h4 class="menytext">5. Hawaii</h4>
+          <h4 class="menytext" id="Hawaii">5. Hawaii</h4>
           <p class="menytext">Skinka, ananas</p>
         </div>
         <div class="menyitem">
@@ -531,6 +545,8 @@
       <div class="menysektion">
         <div class="menyitem">
           <div class="menytext"><h3>Pris 2 : 90 :-</h3></div>
+          <img src="PizzaPris2.jpg" alt="" class="menybild" />
+
           <h4 class="menytext">1. Kanon</h4>
           <p class="menytext">Salami, bacon, ägg</p>
         </div>
@@ -590,6 +606,8 @@
       <div class="menysektion">
         <div class="menyitem">
           <div class="menytext"><h3>Pris 3 : 95 :-</h3></div>
+          <img src="PizzaPris3.jpg" alt="" class="menybild" />
+
           <h4 class="menytext">1. Gorgonzola</h4>
           <p class="menytext">Skinka, gorgonzola, lök</p>
         </div>
@@ -657,6 +675,8 @@
       <div class="menysektion">
         <div class="menyitem">
           <div class="menytext"><h3>Pris 4 : 100 :-</h3></div>
+          <img src="PizzaPris4.jpg" alt="" class="menybild" />
+
           <h4 class="menytext">1. Oxfilé Special</h4>
           <p class="menytext">Oxfilé, anan, räkor, cury, bearnaise</p>
         </div>
@@ -711,11 +731,13 @@
       <div class="menysektion">
         <div class="menyitem">
           <div class="menytext"><h3>Pris 5 : 105 :-</h3></div>
+          <img src="PizzaPris5.jpg" alt="" class="menybild" />
+
           <h4 class="menytext">1. Scampi Pizza</h4>
           <p class="menytext">Scampi persilja, färsk vitlök</p>
         </div>
         <div class="menyitem">
-          <h4 class="menytext">2. Havets Pizza</h4>
+          <h4 class="menytext" id="HavetsPizza">2. Havets Pizza</h4>
           <p class="menytext">Scampi, räkor, musslor, färsk vitlök</p>
         </div>
         <div class="menyitem">
@@ -795,6 +817,8 @@
       <div class="menysektion">
         <div class="menyitem">
           <div class="menytext"><h3>Mexikanska Pizzor : 95 :-</h3></div>
+          <img src="Mexikanska Pizzor.jpg" alt="" class="menybild" />
+
           <h4 class="menytext">1. Azteka</h4>
           <p class="menytext">
             Skinka, jalapeno, tacokrydda, tacosås, tacosås, gräddfil
@@ -832,7 +856,8 @@
         <div class="footer1">
           <p>Kontaktinformation:</p>
           <p>Telefon : 08-560 43 400</p>
-          <p>Epost:info@pizzeriakungsberga.se</p>
+          <p>Epost : info@pizzeriakungsberga.se</p>
+          <p>Adress : Kungsbergavägen 46A, 179 97 Färentuna, Ekerö</p>
         </div>
 
         <div>
